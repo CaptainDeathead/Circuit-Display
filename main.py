@@ -1,4 +1,4 @@
-import rpi.gpio as pins
+import RPi.GPIO as pins
 import time
 
 pins.setmode(pins.BCM)
