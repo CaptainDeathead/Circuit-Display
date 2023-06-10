@@ -132,6 +132,7 @@ class display:
         for i in range(0, 10):
             self.display(i)
             time.sleep(1)
+            self.display("clear")
 
 if __name__ == "__main__":
     display = display()
