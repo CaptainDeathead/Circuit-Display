@@ -124,4 +124,5 @@ class display:
             time.sleep(1)
 
 if __name__ == "__main__":
+    display = display()
     display.cycle()
